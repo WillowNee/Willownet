@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Net;
 using Willownet.BL.Auth;
 using Willownet.Middleware;
-using Willownet.ViewMapper;
 using Willownet.ViewModels;
 
 namespace Willownet.Controllers

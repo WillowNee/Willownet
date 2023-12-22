@@ -1,5 +1,4 @@
 using System.Transactions;
-using Willownet.BL.Auth;
 using Willownet.BL.Exceptions;
 using Willowtest.Helpers;
 

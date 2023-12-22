@@ -1,7 +1,4 @@
-﻿
-using Willownet.DAL.Models;
-
-namespace Willownet.DAL
+﻿namespace Willownet.DAL
 {
     public class UserTokenDAL : IUserTokenDAL
     {

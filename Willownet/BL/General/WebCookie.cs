@@ -1,6 +1,4 @@
-﻿using Willownet.BL.Auth;
-
-namespace Willownet.BL.General
+﻿namespace Willownet.BL.General
 {
     public class WebCookie : IWebCookie
     {

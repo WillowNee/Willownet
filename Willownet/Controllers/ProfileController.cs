@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SixLabors.ImageSharp.Metadata.Profiles.Icc;
 using Willownet.BL.Auth;
 using Willownet.BL.Profile;
 using Willownet.DAL.Models;

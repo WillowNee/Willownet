@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using Willownet.BL.Auth;
 using Willownet.BL.Resume;
 using Willownet.Models;
 
@@ -8,14 +7,10 @@ namespace Willownet.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-        private readonly ICurrentUser currentUser;
         private readonly IResume resume;
 
-        public HomeController(ILogger<HomeController> logger, ICurrentUser currentUser, IResume resume)
+        public HomeController(IResume resume)
         {
-            _logger = logger;
-            this.currentUser = currentUser;
             this.resume = resume;
         }
 

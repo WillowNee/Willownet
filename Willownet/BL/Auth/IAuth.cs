@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using Willownet.DAL.Models;
+﻿using Willownet.DAL.Models;
 
 namespace Willownet.BL.Auth
 {

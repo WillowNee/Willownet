@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Willownet.DAL.Models;
+﻿using Willownet.DAL.Models;
 using Willownet.ViewModels;
 
 namespace Willownet.ViewMapper

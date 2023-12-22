@@ -1,6 +1,4 @@
 ﻿using Willownet.DAL.Models;
-using Dapper;
-using Npgsql;
 
 namespace Willownet.DAL
 {
